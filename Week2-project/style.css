@@ -1,0 +1,112 @@
+* {
+  box-sizing: border-box;
+}
+
+.row {
+  width: 100%;
+}
+
+@media (min-width: 991px) {
+
+  div>div {
+    width: 29%;
+    height: 200px;
+    background-color: gray;
+    margin: 20px;
+    float: left;
+    font-family: Times New Roman, sans-serif;
+    font-size: 20px;
+    overflow: auto;
+    border: 3px solid black;
+  }
+
+  h1 {
+    text-align: center;
+    font-family: "Lucida Console", Courier, monospace;
+    background-color: blue;
+    font-size: 40px;
+  }
+
+  p {
+    width: 100px;
+    height: 35px;
+    background-color: red;
+    float: right;
+    margin: 0;
+    font-family: Impact, Charcoal, sans-serif;
+    text-align: center;
+    font-size: 25px;
+    color: white;
+  }
+}
+
+@media (min-width: 768px) and (max-width: 991px) {
+
+  div>div {
+    width: 44%;
+    height: 200px;
+    background-color: gray;
+    margin: 20px;
+    float: left;
+    font-family: Times New Roman, sans-serif;
+    font-size: 20px;
+    overflow: auto;
+    border: 3px solid black;
+  }
+
+  h1 {
+    text-align: center;
+    font-family: "Lucida Console", Courier, monospace;
+    background-color: blue;
+    font-size: 40px;
+  }
+
+  p {
+    width: 100px;
+    height: 35px;
+    background-color: red;
+    float: right;
+    margin: 0;
+    font-family: Impact, Charcoal, sans-serif;
+    text-align: center;
+    font-size: 25px;
+    color: white;
+  }
+  
+  #xxx {
+    width: 93%;
+  }
+}
+@media (max-width: 767px) {
+
+  div>div {
+    width: 90%;
+    height: 200px;
+    background-color: gray;
+    margin: 20px;
+    float: left;
+    font-family: Times New Roman, sans-serif;
+    font-size: 20px;
+    overflow: auto;
+    border: 3px solid black;
+  }
+
+  h1 {
+    text-align: center;
+    font-family: "Lucida Console", Courier, monospace;
+    background-color: blue;
+    font-size: 40px;
+  }
+
+  p {
+    width: 100px;
+    height: 35px;
+    background-color: red;
+    float: right;
+    margin: 0;
+    font-family: Impact, Charcoal, sans-serif;
+    text-align: center;
+    font-size: 25px;
+    color: white;
+  }
+}
